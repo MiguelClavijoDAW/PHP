@@ -1,0 +1,32 @@
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table,th,tr,td{
+    border:1px solid crimson;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    margin:0 auto;
+}
+td{
+    padding: 2rem;
+}
+tr:hover{
+    background-color: burlywood;
+}
+.boton{
+    text-decoration: none;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 0.4rem;
+}
+.boton:hover{
+    background-color: white;
+    color: blue;
+}

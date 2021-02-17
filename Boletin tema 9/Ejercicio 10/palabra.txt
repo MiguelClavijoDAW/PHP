@@ -1,0 +1,6 @@
+gato
+perro
+amarillo
+blanco
+negron
+zapato

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>funcion EJ12</title>
+</head>
+<body>
+	<?php 
+		$p1=$_POST['p1'];
+		$p2=$_POST['p2'];
+		$p3=$_POST['p3'];
+		$p4=$_POST['p4'];
+		$p5=$_POST['p5'];
+		$contA=0;
+		$contB=0;
+		if($p1){
+			$contA++;
+		}else{
+			$contB++;
+		}
+		if(!$p2){
+			$contA++;
+		}else{
+			$contB++;
+		}
+		if(!$p3){
+			$contA++;
+		}else{
+			$contB++;
+		}
+		if($p4){
+			$contA++;
+		}else{
+			$contB++;
+		}
+		if($p5){
+			$contA++;
+		}else{
+			$contB++;
+		}
+		echo "Has acertado $contA y has fallado $contB";
+	 ?>
+</body>
+</html>
