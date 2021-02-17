@@ -5,17 +5,12 @@
             $palo=["oro","basto","copa","espada"];
             $baraja=[];
             for ($i=0; $i < $num; $i++) { 
-                $ban=false;
                 $ap1=rand(0,3);
                 $ap2=rand(1,12);
                 $aux="$ap2 de $palo[$ap1]";
-                foreach ($baraja as $carta) {
-                    if($carta==$aux){
-                        $ban=true;
-                        $i--;
-                    }
-                }
-                if(!$ban){
+                if(in_array($aux,$baraja)){
+                    $i--;
+                }else{
                     $baraja[]=$aux;
                 }
             }
