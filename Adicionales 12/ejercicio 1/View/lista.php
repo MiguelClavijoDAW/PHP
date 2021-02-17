@@ -64,5 +64,8 @@
             }
         ?>
     </table>
+    <form action="../Controller/nuevoCliente.php">
+            <input type="submit" value="Optener tener KEY API">
+    </form>
 </body>
 </html>
