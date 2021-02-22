@@ -16,6 +16,9 @@
     </form><br>
     <form action="../Controller/VerAsignatura.php" method="POST">
         <input type="submit" class="boton"  value="Asignaturas">
+    </form><br>
+    <form action="../Controller/imprimirAlumno.php" method="post">
+        <input type="submit" value="Impimir Listas Alumno" class="boton">
     </form>
     <hr>
     <table>

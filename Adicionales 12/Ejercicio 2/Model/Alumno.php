@@ -45,6 +45,10 @@ include "../Model/EscuelaDB.php";
                 $conexion->exec($sql);
         }
 
+        function imprimir(){
+                return "Matricula: $this->matricula  Nombre: $this->nombre  Apellidos: $this->apellido  Curso: $this->curso";
+        }
+
         /**
          * Get the value of matricula
          */ 
